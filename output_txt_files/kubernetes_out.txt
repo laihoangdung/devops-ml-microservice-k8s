@@ -1,0 +1,17 @@
+(.devops) laihoangdung@hoangdung:~/aws/Udacity/DevOps/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "dunglh9-house-prediction" already exists
+NAME                       READY   STATUS    RESTARTS   AGE
+dunglh9-house-prediction   1/1     Running   0          19m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+------------ Prediction Output ------------------
+laihoangdung@hoangdung:~/aws/Udacity/DevOps/DevOps_Microservices/project-ml-microservice-kubernetes$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
